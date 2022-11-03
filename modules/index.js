@@ -59,8 +59,8 @@ const aspectForm = document.getElementById("aspect-form");
 
 aspectForm.addEventListener("change", (e) => {
   const input = [
-    document.getElementById("difference_1"),
-    document.getElementById("difference_2"),
+    document.getElementById("ratio_1"),
+    document.getElementById("ratio_2"),
   ];
   const newWidth = document.getElementById("ratio_result-width");
   const newHeight = document.getElementById("ratio_result-height");
