@@ -11,3 +11,5 @@ function calculateAspectRatio(originalWidth, originalHeight, newValue, valueType
         originalHeight / originalWidth;
     return fixRoundingErrors(formula * newValue);
 }
+// named export, only calculateAspectRatio because the other function is nested in
+export {calculateAspectRatio}
